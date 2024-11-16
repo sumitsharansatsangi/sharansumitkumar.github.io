@@ -5,6 +5,15 @@ body, html {
     height: 100%;
     display: flex;
     flex-direction: column;
+    /* background-color: #f9f9f9; */
+    color: #333;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.about {
+    margin-bottom: 2rem;
+    animation: slideIn 1.5s ease-out;
+    /* transition: background-color 0.3s ease, color 0.3s ease; */
 }
 
 .container {
@@ -75,6 +84,7 @@ nav a:hover {
 main {
     flex: 1;
     padding: 2rem;
+    padding-bottom: 6rem;
 }
 
 .hero {
@@ -100,7 +110,7 @@ h2 {
 }
 
 .cta-button {
-    background-color: #FFEB3B;
+    background-color: #a8990c;
     color: black;
     padding: 0.75rem 1.5rem;
     text-decoration: none;
