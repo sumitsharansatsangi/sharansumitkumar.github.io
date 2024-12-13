@@ -1,13 +1,56 @@
 /* General styles */
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
     height: 100%;
+    /* background-color: #FFF8DC; */
     display: flex;
+    justify-content: center;
     flex-direction: column;
+    align-items: center;
     /* background-color: #f9f9f9; */
     color: #333;
     transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+
+/* Golden background for the container */
+.left-side {
+    flex: 1;
+}
+
+.left-side img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.right-side {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download-button {
+    background-color: #615304;
+    /* Golden background color */
+    color: #FFFFFF;
+    /* White text color */
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+    background-color: #FFC107;
+    /* Slightly darker yellow on hover */
 }
 
 .about {
@@ -201,13 +244,25 @@ footer {
 
 /* Animations */
 @keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 @keyframes slideIn {
-    0% { transform: translateY(20px); opacity: 0; }
-    100% { transform: translateY(0); opacity: 1; }
+    0% {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 /* Dark Theme */
