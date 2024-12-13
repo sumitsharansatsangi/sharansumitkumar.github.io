@@ -179,10 +179,7 @@ h2 {
     color: black;
 }
 
-.about,
-.contact,
-.contact-form,
-.contact-info {
+.about{
     padding: 2rem;
     max-width: 800px;
     margin: 0 auto;
@@ -192,43 +189,6 @@ h2 {
     margin-top: 2rem;
     animation: fadeIn 1.5s ease-out;
     transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.contact-form form {
-    display: flex;
-    flex-direction: column;
-}
-
-.contact-form .form-group {
-    margin-bottom: 1rem;
-}
-
-.contact-form label {
-    font-weight: bold;
-}
-
-.contact-form input,
-.contact-form textarea {
-    padding: 0.5rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 1rem;
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.contact-form button {
-    background-color: #FFEB3B;
-    color: black;
-    padding: 0.75rem 1.5rem;
-    border: none;
-    border-radius: 5px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.contact-form button:hover {
-    background-color: #fbc02d;
 }
 
 footer {
